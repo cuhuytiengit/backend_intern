@@ -1,0 +1,225 @@
+@media only screen and (min-width:500px) and (max-width :  899px){
+
+  .text-phone{
+    position: relative;
+    right: 110px;
+  }
+  .header .row .col{
+      flex: none;
+    }
+    .header .row {
+      flex: none;
+      height: 120px;
+    }
+
+    .header .row ul li{
+      position: relative;
+       left: calc(50%);
+    }
+    .header-logo-1 .row  {
+      flex: none;
+      height: 300px;
+    }
+    .header-logo-1 .row .logo  {
+      flex: none;
+
+
+    }
+    .header-logo-1 .row .input-search {
+      position: relative;
+      left: 120px;
+      flex: none;
+      flex-direction: row
+
+
+    }
+
+    .header-logo-1 .row   .icon{
+      position: relative;
+      left: 200px;
+      flex: none;
+      flex-direction: row
+
+    }
+    .banner-top-1 .row{
+      width: 100%;
+      flex: none;
+      height: 500px;
+
+    }
+
+    .banner-top-1 .row .col-8  {
+      width: 104%;
+
+    }
+    .banner-top-1 .row .banner-header1{
+      width: 104%;
+      height: 95%;
+    }
+    .banner-top-1 .row .banner-header1 .text-banner{
+      font-size: 350%;
+      position: relative;
+       left: calc(-10%);
+    }
+    .banner-top-1 .row .banner-header1 .button-hover-box-shadownn{
+
+      position: relative;
+       left: calc(-5%);
+       width: 150px;
+       bottom: 50px;
+    }
+
+
+    .banner-top-1 .row .banner-header2{
+      width: 100%;
+
+    }
+
+
+    
+
+    .banner-top-1 .row .banner-header2{
+      width: 100%;
+
+    }
+
+    .banner-bottom .container-1 .row{
+      flex: none;
+      padding-top: 450px;
+      
+
+    }
+
+    .banner-bottom .container-1 .row .col{
+      flex: none;
+      margin-top: 20px;
+
+    }
+
+ 
+    
+
+
+
+
+
+
+    
+
+}
+
+
+
+@media only screen and (min-width:900px) and (max-width: 1200px) { 
+  
+    .header .row .text-phone{
+        position: relative;
+        right: 150px;
+       width: 130%;
+       font-size: 13px;
+        
+      
+      }
+      .header .row  .fa-clock-o{
+        position: relative;
+        left: 10px;
+      }    
+.header .row .text-hours{
+    position: relative;
+    right: 50px;
+    
+    font-size: 13px;
+  
+  }
+
+  .header-logo-1 .row .logo {
+    position: relative;
+        right: 150px;
+        width: 150%;
+  }
+
+  .header-menu .menu-main {
+    position: relative;
+    right: 150px
+ 
+  }
+  .icon{
+    position: relative;
+    left: 45px;
+  }
+  .banner-header1 .text-banner{
+      font-size: 300%;
+      position: relative;
+      top: 50px;
+  }
+
+  .banner-header1 .button-hover-box-shadownn{
+  
+    width : 150px;
+    height: 50px;
+
+  }
+
+  .banner-header2 .button-hover-box-shadownn{
+  
+    width : 150px;
+    height: 50px;
+
+  }
+
+  .banner-sub .banner-sub2 > .button-hover-box-shadownn{
+    width : 150px;
+    height: 50px;
+  }
+
+  .product{
+      width: 100%;
+      margin-left: 0px;
+  }
+
+  .phone  .fa-phone{
+      margin-left: -50px;
+   
+}
+.time  .fa-clock-o{
+    margin-left: -50px;
+ 
+}
+.ship  .fa-truck{
+    margin-left: -50px;
+ 
+}
+
+.return  .fa-refresh{
+    margin-left: -30px;
+ 
+}
+
+ .return .infor{
+    position: relative;
+    left: 30px;
+ }
+
+ .footer-info{
+
+    height: 320px;
+      margin-top: 30px;
+      
+  }
+
+  @media (min-width: 900px){
+    .header .row .col-12 .text-phone {
+        
+        flex-direction: row;
+      
+      }
+      .header .row  .col-12  .text-hours{
+        flex-direction: row;
+      
+      }
+    
+
+  }
+  
+      
+ }

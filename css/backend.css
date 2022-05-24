@@ -1,0 +1,36 @@
+
+.add  button{
+  position: relative;
+  left:  70%;
+  width: 100px;
+  height: 25px;
+
+}
+
+table{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th {    
+    background-color: hsl(0, 7%, 8%);
+    color: rgb(239, 23, 23);
+    width: 150px;
+    padding: 10px;
+
+  }
+
+
+  td {
+    background-color: hsl(158, 95%, 34%);
+    color: white;
+
+    text-align: center;
+    padding: 10px;
+  }
+
+th .add_data{
+    justify-content: center;
+}

@@ -1,0 +1,197 @@
+@media only screen and (max-width :  600px){
+
+    .header-black  .header-black-1{
+        width: 100%;
+        flex-direction:column;
+        word-wrap: break-word;
+
+    }
+    .header-black  .header-black-2{
+        width: 100%;
+        flex-direction:column;
+        word-wrap: break-word;
+        padding-left: 50px;
+    }
+    .header-black  .header-black-3{
+        width: 100%;
+        flex-direction:column;
+        word-wrap: break-word;
+        padding-left: 50px;
+
+    }
+
+    .logo{
+        width: 100%;
+        flex-direction:column;
+        word-wrap: break-word; 
+
+
+    }
+    .header-logo{
+        padding-top: 30px;
+    }
+    .header-logo .text-evolveris a{
+
+        font-size: 30px;
+        
+      }
+    .input-search{
+        width: 100%;
+        flex-direction:column;
+        word-wrap: break-word;
+        margin-right: 80px;
+        
+    }
+    .icon{
+        width: 100%;
+        flex-direction:column;
+        word-wrap: break-word;
+
+        
+    }
+
+    .view-categories{
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .column-categories{
+        width: 100%;
+        flex-direction:column;
+      flex-wrap: wrap;
+
+    }
+    .list-product{
+        width: 100%;
+        flex-direction:row;
+    }
+    .choose-product{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .choose-number-show{
+        width: 100%;
+        flex-direction:row;
+
+    }
+    .text-show{
+        width: 100%;
+        flex-direction:row;
+    }
+    .choose-show{
+        width: 100%;
+        flex-direction:row;
+        
+    }
+
+    .text-sort{
+
+
+        width: 100%;
+        flex-direction:row;
+        padding-top: 50px;
+
+   
+    }
+    .choose-sort-style{
+
+        width: 100%;
+        flex-direction:row;
+
+    }
+    .choose-sort{
+        padding-top: 30px;
+        width: 100%;
+        flex-direction:row;
+
+    }
+    .choose-page{
+        margin-top: 150px;
+        width: 100%;
+        flex-direction:row;
+        margin-right: 600px;
+    }
+
+    .choose-page button{
+       width: 50px;
+       height: 50px;
+    }
+      
+    .list-product-page{
+        flex-wrap: wrap;
+    }
+    .product-list-top .product1 {
+        width: 100%;
+        flex-direction: row;
+         padding-top: 20px;
+    }
+    .footer .footer-green{
+        width: 100%;
+         padding: 0;
+         margin-left: 0;
+
+    }
+    .newsletter{
+        flex-direction: row;
+        width: 100%;
+
+
+    
+
+    
+      }
+      .input{
+        flex-direction: row;
+        width: 100%;
+    
+      }
+
+
+
+
+
+    .footer-info .footer1{
+        width: 100%;
+        flex-direction:column;
+
+    
+      }
+        .footer-info .footer2{
+            width: 100%;
+        flex-direction:column;
+
+
+    
+      }
+         .footer-info .footer3{
+            width: 100%;
+        flex-direction:column;
+    
+      }
+         .footer-info .footer4{
+            width: 100%;
+        flex-direction:column;
+    
+      }
+
+      .footer-a-cong{
+        width: 100%;
+
+        border-top: rgb(185, 178, 178) 1px solid;
+        margin-left: 0;
+    
+    }
+      .info-a-cong{
+        flex-direction: row;
+        width: 100%;
+        margin-left: 100px;
+    }
+    .logo-nha-tai-tro{
+        flex-direction: row;
+        width: 100%;
+        padding-right:  100px;
+    }
+
+
+}
