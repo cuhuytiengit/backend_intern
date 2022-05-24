@@ -80,6 +80,7 @@
 
     .banner-top-1 .row .banner-header2{
       width: 100%;
+      
 
     }
 
@@ -93,6 +94,11 @@
     .banner-bottom .container-1 .row .col{
       flex: none;
       margin-top: 20px;
+
+    }
+
+    .product{
+      padding-top: 900px;
 
     }
 
