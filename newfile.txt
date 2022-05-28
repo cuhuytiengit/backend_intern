@@ -1257,3 +1257,12 @@ SELECT COUNT(*) AS id FROM products
 SELECT COUNT(*) AS id FROM products ORDER BY price_product DESC
 SELECT COUNT(*) AS id FROM products ORDER BY price_product ASC
 SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products ORDER BY price_product DESC
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
