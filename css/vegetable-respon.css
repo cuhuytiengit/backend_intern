@@ -41,6 +41,8 @@
         left: 50px
   
       }
+
+
     
   
       .input .input-email {
@@ -49,10 +51,10 @@
   
       .footer{
   
-          width: 180%;
+          width: 120%;
           position: relative;
-  
-          right: 100px;
+          right: 50px;
+
   
   
       }
@@ -76,7 +78,7 @@
     }
   
    .footer-a-cong-1{
-     width: 180%;
+     width: 90%;
      padding-top:30px;
      height: 100px;
   
