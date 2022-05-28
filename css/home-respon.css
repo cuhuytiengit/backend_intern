@@ -1,21 +1,23 @@
-@media only screen and (min-width:500px) and (max-width :  899px){
+@media only screen and (min-width:500px) and (max-width :  768px){
 
   .text-phone{
     position: relative;
-    right: 110px;
+    right: 60px;
   }
-  .header .row .col{
-      flex: none;
+  .text-time{
+    position: relative;
+    right: 140px;
+  }
+
+  .header .row {
+      flex: none;  
+       height: 140px;
     }
-    .header .row {
-      flex: none;
-      height: 120px;
+    .header .row .col-12{
+      flex: none;  
+
     }
 
-    .header .row ul li{
-      position: relative;
-       left: calc(50%);
-    }
     .header-logo-1 .row  {
       flex: none;
       height: 300px;
@@ -27,41 +29,39 @@
     }
     .header-logo-1 .row .input-search {
       position: relative;
-      left: 120px;
-      flex: none;
-      flex-direction: row
+      left: 0;
+
+ 
 
 
     }
 
     .header-logo-1 .row   .icon{
       position: relative;
-      left: 200px;
-      flex: none;
-      flex-direction: row
+      left: 50px
 
     }
     .banner-top-1 .row{
       width: 100%;
-      flex: none;
+
       height: 500px;
 
     }
 
-    .banner-top-1 .row .col-8  {
-      width: 104%;
 
-    }
-    .banner-top-1 .row .banner-header1{
+    .banner .row .banner-header1{
       width: 104%;
       height: 95%;
+          
     }
-    .banner-top-1 .row .banner-header1 .text-banner{
-      font-size: 350%;
+    .banner .row .banner-header1 .text-banner{
+      font-size: 50px;
       position: relative;
-       left: calc(-10%);
+      bottom: 30px;
+
+
     }
-    .banner-top-1 .row .banner-header1 .button-hover-box-shadownn{
+    .banner .row .banner-header1 .button-hover-box-shadownn{
 
       position: relative;
        left: calc(-5%);
@@ -70,37 +70,134 @@
     }
 
 
-    .banner-top-1 .row .banner-header2{
+    .banner .row .banner-header2{
       width: 100%;
+      margin-top: 30px;
 
     }
+.container-1{
+  margin-top: 20px;
+}
+.container-1 .filter2{
+  margin-top: 20px;
+}
+.container-1 .filter3{
+  margin-top: 20px;
+}
+.container-1 .filter4{
+  margin-top: 20px;
+}
+    .product{
+      padding-top: 50px;
+      margin-left: 100px;
+    }
+    .product{
+      position: relative;
+      right:160px
+    
+  }
+  .product-top{
+    flex-direction: column;
+   
+  
+  }
+  .product-top .product-1{
+    width: 100%;
+  
+  }
+
+    .banner-sub .row .banner-sub1{
+      width: 180%;
+      position: relative;
+
+    }
+    .banner-sub .row .banner-sub2{
+      width: 180%;
+      margin-top: 20px;
+  
+
+    }
+    .banner-logo1{
+    
+      width: 100%;
+      position: relative;
+      left: 100px
+
+    }
+
+
+    .infor-activity-1 .row  .col .phone .icon{
+      position: relative;
+      left: 5%;
+    
+    }
+    .infor-activity-1 .row  .col .time .icon{
+      position: relative;
+      left: 5%;
+    
+    }
+    .infor-activity-1 .row  .col .ship .icon{
+      position: relative;
+      left: 5%;
+    
+    }
+
+    .infor-activity-1 .row  .col .return .icon{
+      position: relative;
+      left: 5%;
+    
+    }
+
+    .input .input-email {
+      padding-left: 20px;
+    }
+
+    .footer{
+
+        width: 180%;
+        position: relative;
+
+        right: 100px;
+
+
+    }
+    .footer .footer-green .col-7{
+      width:100%
+  }
+
+
+    .footer  .footer-green .row .col .input{
+     padding: 10px;
+  }
+
+
+  .footer-info{
+    padding-top:100px;
+    height:1050px
+  }
+
+  .footer-info .row .col{
+   flex: none;
+  }
+
+ .footer-a-cong-1{
+   width: 180%;
+   padding-top:30px;
+   height: 100px;
+
+ }
+
+
+
+
+
+
+
+
 
 
     
-
-    .banner-top-1 .row .banner-header2{
-      width: 100%;
-      
-
-    }
-
-    .banner-bottom .container-1 .row{
-      flex: none;
-      padding-top: 450px;
-      
-
-    }
-
-    .banner-bottom .container-1 .row .col{
-      flex: none;
-      margin-top: 20px;
-
-    }
-
-    .product{
-      padding-top: 900px;
-
-    }
+    
 
  
     
@@ -116,11 +213,11 @@
 
 
 
-@media only screen and (min-width:900px) and (max-width: 1200px) { 
+@media only screen and (min-width:780px) and (max-width: 1200px) { 
   
     .header .row .text-phone{
         position: relative;
-        right: 150px;
+        right: 120px;
        width: 130%;
        font-size: 13px;
         
@@ -128,12 +225,19 @@
       }
       .header .row  .fa-clock-o{
         position: relative;
-        left: 10px;
+        right: 60px;
       }    
+      .header .row .text-time{
+        position: relative;
+        right: 30px;
+        width: 130%;
+        font-size: 13px;
+      }
+
 .header .row .text-hours{
     position: relative;
     right: 50px;
-    
+    width: 130%;
     font-size: 13px;
   
   }
@@ -143,7 +247,9 @@
         right: 150px;
         width: 150%;
   }
-
+  .header-logo-1 .row .input-search {
+        width: 150%;
+  }
   .header-menu .menu-main {
     position: relative;
     right: 150px
@@ -163,6 +269,7 @@
   
     width : 150px;
     height: 50px;
+    margin-top: 50px;
 
   }
 
@@ -180,7 +287,7 @@
 
   .product{
       width: 100%;
-      margin-left: 0px;
+      padding-left: 0px;
   }
 
   .phone  .fa-phone{

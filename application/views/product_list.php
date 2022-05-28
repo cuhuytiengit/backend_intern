@@ -1,20 +1,27 @@
-<div class="choose-product">
-                        <div class="choose-show ">
-                            <div class="text-show">Show</div>
-                            <div class="choose-number-show">
-                               <?php include 'number_product.php'  ?>
-                                <?php include 'select_number_product.php'  ?>
-      
-                            </div>
-                        </div>
-                        <div class="choose-sort ">
-                            <div class="text-sort">Sort by</div>
+<div class="choose-product-1">
+    <div class="row">
+    <div class="col-12 col-md-4">
+    
+            <div class="text-show">Show</div>
+            <div class="choose-number-show">
+            <?php include 'number_product.php'  ?>
+            <?php include 'select_number_product.php'  ?>
+
+            </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+
+    <div class="text-sort">Sort by</div>
                             <div class="choose-sort-style">
                                 <?php include 'sort_price.php' ?>
                                 <?php include 'select_sort_price.php' ?>
                             </div>
-                        </div>
-                        <div class="choose-page">
+
+    </div>
+    
+    <div class="col-12 col-md-4">
+    <div class="choose-page">
                             <?php  
                                      $servername = "localhost";
                                      $username = "root";
@@ -27,12 +34,17 @@
                                     include 'button.php';  
                           ?>
                         </div>
-                    </div>
+                        </div>
+
+    </div>
+  </div>
+  
 
 
-                    <div class="list-product-page">
-                        <div class="product-list-sale-page-1">
 
+
+ <div class="list-product-page">
+         <div class="product-list-sale-page-1">
     <div class="product-list-top" >
         <?php  foreach((array)$resultData as $user) { ?>
             <div class="product1 "  > 
@@ -58,24 +70,29 @@
 
 </div>
 
-
-<div class="choose-product">
-<div class="choose-show ">
-                            <span class="text-show">Show</span>
-                            <span class="choose-number-show">
+<div class="choose-product-1">
+    <div class="row">
+    <div class="col-12 col-md-4">
+    
+                            <div class="text-show">Show</div>
+                            <div class="choose-number-show">
                                <?php include 'number_product.php'  ?>
                                 <?php include 'select_number_product.php'  ?>
       
-                            </span>
+                            </div>
                         </div>
-                        <div class="choose-sort ">
-                            <span class="text-sort">Sort by</span>
-                            <span class="choose-sort-style">
+
+    <div class="col-12 col-md-4">
+
+    <div class="text-sort">Sort by</div>
+                            <div class="choose-sort-style">
                                 <?php include 'sort_price.php' ?>
                                 <?php include 'select_sort_price.php' ?>
-                            </span>
-                        </div>
-                        <div class="choose-page">
+                            </div>
+
+    </div>
+    <div class="col-12 col-md-4">
+    <div class="choose-page">
                             <?php  
                                      $servername = "localhost";
                                      $username = "root";
@@ -88,5 +105,10 @@
                                     include 'button.php';  
                           ?>
                         </div>
-                    </div>
-        </div>
+                        </div>
+
+    </div>
+  </div>
+  
+</div>
+
