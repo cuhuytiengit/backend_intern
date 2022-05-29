@@ -31,9 +31,6 @@
         position: relative;
         left: 0;
   
-   
-  
-  
       }
   
       .header-logo-1 .row   .icon{
@@ -85,26 +82,79 @@
    }
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-  
-   
-      
-  
-  
-  
-  
-  
-  
-      
-  
   }
+
+  
+@media only screen and (min-width:780px) and (max-width: 1200px) { 
+  
+  .header .row .text-phone{
+      position: relative;
+      right: 120px;
+     width: 130%;
+     font-size: 13px;
+      
+    
+    }
+    .header .row  .fa-clock-o{
+      position: relative;
+      right: 60px;
+    }    
+    .header .row .text-time{
+      position: relative;
+      right: 30px;
+      width: 130%;
+      font-size: 13px;
+    }
+
+.header .row .text-hours{
+  position: relative;
+  right: 50px;
+  width: 130%;
+  font-size: 13px;
+
+}
+
+.header-logo-1 .row .logo {
+  position: relative;
+      right: 150px;
+      width: 150%;
+}
+.header-logo-1 .row .input-search {
+      width: 150%;
+}
+.header-menu .menu-main {
+  position: relative;
+  right: 150px
+
+}
+.icon{
+  position: relative;
+  left: 45px;
+}
+
+.view-categories1 .row {
+  width: 100%;
+  flex: none;
+  padding: 0;
+
+
+
+}
+.footer{
+  width: 100%;
+  flex: none;
+  padding: 0;
+}
+
+.footer-info{
+
+  height: 320px;
+    margin-top: 30px;
+    
+}
+
+
+
+    
+}
   
