@@ -1303,3 +1303,7 @@ SELECT COUNT(*) AS id FROM products
 SELECT COUNT(*) AS id FROM products 
 SELECT COUNT(*) AS id FROM products 
 SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
+SELECT COUNT(*) AS id FROM products 
