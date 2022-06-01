@@ -38,7 +38,9 @@
         left: 50px
   
       }
-
+      .product-list-top{
+        flex-direction: column;
+      }
 
     
   

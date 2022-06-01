@@ -1,32 +1,6 @@
 @media only screen and (min-width:500px) and (max-width :  768px){
+  
 
-  .text-phone{
-    position: relative;
-    right: 60px;
-  }
-  .text-time{
-    position: relative;
-    right: 140px;
-  }
-
-  .header .row {
-      flex: none;  
-       height: 140px;
-    }
-    .header .row .col-12{
-      flex: none;  
-
-    }
-
-    .header-logo-1 .row  {
-      flex: none;
-      height: 300px;
-    }
-    .header-logo-1 .row .logo  {
-      flex: none;
-
-
-    }
     .header-logo-1 .row .input-search {
       position: relative;
       left: 0;
@@ -215,46 +189,16 @@
 
 @media only screen and (min-width:780px) and (max-width: 1200px) { 
   
-    .header .row .text-phone{
-        position: relative;
-        right: 120px;
-       width: 130%;
-       font-size: 13px;
-        
-      
-      }
-      .header .row  .fa-clock-o{
-        position: relative;
-        right: 60px;
-      }    
-      .header .row .text-time{
-        position: relative;
-        right: 30px;
-        width: 130%;
-        font-size: 13px;
-      }
+ 
+  .logo a{
+    font-size: 30px;
+  }
+  .header-logo-1 .row .input-search input{
+    min-width: 30%;
 
-.header .row .text-hours{
-    position: relative;
-    right: 50px;
-    width: 130%;
-    font-size: 13px;
   
   }
 
-  .header-logo-1 .row .logo {
-    position: relative;
-        right: 150px;
-        width: 150%;
-  }
-  .header-logo-1 .row .input-search {
-        width: 150%;
-  }
-  .header-menu .menu-main {
-    position: relative;
-    right: 150px
- 
-  }
   .icon{
     position: relative;
     left: 45px;

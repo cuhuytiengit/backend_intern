@@ -5,10 +5,8 @@
     margin: 0;
 }
 
-
-.header .row{
+.header-black{
   
-  height: 42px;
   color: #fff;
   background-color:     #272b2c;
   font-size: 14px;
@@ -18,31 +16,32 @@
   padding-left: 12%;
   padding-right: 12%;
 
+
 }
-.header .row .text-phone {
+.header-black .text-phone {
   margin-top: 10px;
 
 
 }
-.header .row .text-phone .phone {
+.header-black .text-phone .phone {
   padding-left: 5px;
   font-weight: 700;
 }
-.header .row .text-phone .fa-phone {
+.header-black .text-phone .fa-phone {
   color: #6aaf07;
 }
-.header .row .text-time {
+.header-black .text-time {
   margin-top: 10px;
   padding-left: 20%;
 
 }
-.header .row .text-time .fa-clock-o {
+.header-black .text-time .fa-clock-o {
   color: #6aaf07;
 
 }
 
 
-.header .row .text-hours{
+.header-black .text-hours{
   color:white;
   font-family: 'PT Sans Narrow', sans-serif;
 
@@ -50,14 +49,14 @@
 }
 
 
-.header .row  ul {
+.header-black  ul {
    position: relative;
    top:10px;
    float:right;
 
    
 }
-.header .row ul li{
+.header-black ul li{
   float:left;
   margin-left:20px;
   list-style: none;
@@ -69,14 +68,10 @@
 
 
 }
-.header .row .header-logo{
+.header-black .header-logo{
   height: 150px;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
-
-.header-logo-1 .row {
-  height: 80px;
-}
 
 
 .header-logo-1 .row {
@@ -90,10 +85,6 @@
   position: relative;
   left: 50%;
   top:10px;
-}
-.header-logo-1 .row{
-  padding-left: 12%;
-  padding-right: 12%;
 }
 
 
@@ -219,7 +210,6 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
 
 .header-menu .row ul {
-  padding-left: 12%;
   margin-top: 30px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 18px;

@@ -102,7 +102,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 ?>
 </div>
-<div class="product">
+<div class="container">
         <div class="text-product">PRODUCTS  </div>
         <div class="product-menu">
         <div class="product-top">
