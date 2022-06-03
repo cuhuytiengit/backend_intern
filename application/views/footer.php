@@ -1,9 +1,9 @@
 
-<div class ='footer'>
+<div class ='footer container-lg '>
     
 <div class="footer-green">
 <div class="row">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
       
     <div class="newsletter">
                                 <div class="text-newsletter">
@@ -17,7 +17,7 @@
     </div>
 
       
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="input">
                                 <div class="input-email"><input type="text" placeholder="Enter your email address*"></div>
                                 <div class="btn-subscribe"><button>SUBSCRIBE</button></div>
@@ -30,7 +30,7 @@
 
 <div class="footer-info">
 <div class="row">
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3">
     <div class = 'footer1'>
                                 <div class = 'footer1-title'> ABOUT</div>
                                 <div class = 'footer2-title'>
@@ -50,7 +50,7 @@
       
 
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3">
      
     <div class = 'footer2'>
                                 <div class = 'footer1-title'> CATEGORIES</div>
@@ -66,7 +66,7 @@
                         </div>
 
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3">
       
     <div class = 'footer3'>
                                 <div class = 'footer1-title'>INFORMATION</div>
@@ -82,7 +82,7 @@
                         </div>
 
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3">
       
     <div class = 'footer4'>
                                 <div class = 'footer1-title'> WHY BUY FROM US</div>
@@ -100,21 +100,16 @@
 
     </div>
   </div>
-  </div>
-
-
-        </div>
-</div>
 
 <div class="footer-a-cong-1">
 
 <div class="row">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
     <div class="info-a-cong">
                                 <div class="info-a-cong-main">© 2019 Evolveris. All Rights Reserved.</div>
                         </div>
     </div>
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
       
     <div class="logo-nha-tai-tro">
                                 <img src="<?php echo base_url();?>img/img/img-logo/Benny-Hinn-Ministries-Paypal-Logo.jpg" width="10%" alt="">
@@ -130,6 +125,10 @@
   </div>
 
   </div>
+  </div>
+
+  </div>
+
 
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>

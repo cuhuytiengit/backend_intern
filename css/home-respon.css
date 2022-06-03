@@ -1,282 +1,104 @@
-@media only screen and (min-width:500px) and (max-width :  768px){
-  
+@media only screen and  (min-width: 300px) and (max-width:767px){
 
-    .header-logo-1 .row .input-search {
-      position: relative;
-      left: 0;
+   .banner .banner-header1{
+      height: 90%;
+      padding-bottom: 150px;
+    }
 
- 
+   .filter1{
+      padding-top: 20px;
+   }
+   .filter2{
+      padding-top: 20px;
+   }
+   
+   .filter3{
+      padding-top: 20px;
+   }
+   .filter4{
+      padding-top: 20px;
+   }
 
+   .product-1{
+      padding-top: 20px;
+
+      padding-bottom: 20px;
+   }
+
+   .banner-sub .col-12 {
+      padding-bottom:30px;
+
+   }
+   .banner-logo1 .row  .logo-thuonghieu1 img{
+      width: 30%;
+      margin-left: 30%;
+      
+    }
+
+   .banner-logo1 .row  .logo-thuonghieu2 img{
+      width: 30%;
+      margin-left: 30%;
+      
+    }
+    .banner-logo1 .row  .logo-thuonghieu3 img{
+      width: 30%;
+      margin-left: 30%;
+      
+    }
+
+    .banner-logo1 .row  .logo-thuonghieu4 img{
+      width: 30%;
+      margin-left: 30%;
+      
+    }
+    .banner-logo1 .row  .logo-thuonghieu5 img{
+      width: 30%;
+      margin-left: 30%;
+      
+    }
+    .banner-logo1 .row  .logo-thuonghieu6 img{
+      width: 30%;
+      margin-left: 30%;
+      
+    }
+
+    .infor-activity-1 .phone{
+      margin-left: 30%;
 
     }
 
-    .header-logo-1 .row   .icon{
-      position: relative;
-      left: 50px
+    .time{
+      margin-left: 30%;
 
     }
-    .banner-top-1 .row{
-      width: 100%;
-
-      height: 500px;
+    .ship{
+      margin-left: 30%;
 
     }
-
-
-    .banner .row .banner-header1{
-      width: 104%;
-      height: 95%;
-          
-    }
-    .banner .row .banner-header1 .text-banner{
-      font-size: 50px;
-      position: relative;
-      bottom: 30px;
-
+    .return{
+      margin-left: 30%;
 
     }
-    .banner .row .banner-header1 .button-hover-box-shadownn{
+    .input-email {
+       width:70%;
+      margin-left: 280px;
 
-      position: relative;
-       left: calc(-5%);
-       width: 150px;
+      padding-bottom: 50px;
+    }
+    .input{
+       margin-bottom: 50px;
+    }
+    .btn-subscribe button{
+       position: relative;
        bottom: 50px;
     }
-
-
-    .banner .row .banner-header2{
-      width: 100%;
-      margin-top: 30px;
-
-    }
-.container-1{
-  margin-top: 20px;
-}
-.container-1 .filter2{
-  margin-top: 20px;
-}
-.container-1 .filter3{
-  margin-top: 20px;
-}
-.container-1 .filter4{
-  margin-top: 20px;
-}
-    .product{
-      padding-top: 50px;
-      margin-left: 100px;
-    }
-    .product{
-      position: relative;
-      right:160px
-    
-  }
-  .product-top{
-    flex-direction: column;
    
-  
-  }
-  .product-top .product-1{
-    width: 100%;
-  
-  }
-
-    .banner-sub .row .banner-sub1{
-      width: 180%;
-      position: relative;
-
-    }
-    .banner-sub .row .banner-sub2{
-      width: 180%;
-      margin-top: 20px;
-  
-
-    }
-    .banner-logo1{
-    
-      width: 100%;
-      position: relative;
-      left: 100px
-
+    .footer-info{
+       padding-top:100px;
     }
 
 
-    .infor-activity-1 .row  .col .phone .icon{
-      position: relative;
-      left: 5%;
-    
-    }
-    .infor-activity-1 .row  .col .time .icon{
-      position: relative;
-      left: 5%;
-    
-    }
-    .infor-activity-1 .row  .col .ship .icon{
-      position: relative;
-      left: 5%;
-    
-    }
 
-    .infor-activity-1 .row  .col .return .icon{
-      position: relative;
-      left: 5%;
-    
-    }
-
-    .input .input-email {
-      padding-left: 20px;
-    }
-
-    .footer{
-
-        width: 180%;
-        position: relative;
-
-        right: 100px;
-
-
-    }
-    .footer .footer-green .col-7{
-      width:100%
-  }
-
-
-    .footer  .footer-green .row .col .input{
-     padding: 10px;
-  }
-
-
-  .footer-info{
-    padding-top:100px;
-    height:1050px
-  }
-
-  .footer-info .row .col{
-   flex: none;
-  }
-
- .footer-a-cong-1{
-   width: 180%;
-   padding-top:30px;
-   height: 100px;
-
- }
-
-
-
-
-
-
-
-
-
-
-    
-    
-
- 
-    
-
-
-
-
-
-
-    
 
 }
 
-
-
-@media only screen and (min-width:780px) and (max-width: 1200px) { 
-  
- 
-  .logo a{
-    font-size: 30px;
-  }
-  .header-logo-1 .row .input-search input{
-    min-width: 30%;
-
-  
-  }
-
-  .icon{
-    position: relative;
-    left: 45px;
-  }
-  .banner-header1 .text-banner{
-      font-size: 300%;
-      position: relative;
-      top: 50px;
-  }
-
-  .banner-header1 .button-hover-box-shadownn{
-  
-    width : 150px;
-    height: 50px;
-    margin-top: 50px;
-
-  }
-
-  .banner-header2 .button-hover-box-shadownn{
-  
-    width : 150px;
-    height: 50px;
-
-  }
-
-  .banner-sub .banner-sub2 > .button-hover-box-shadownn{
-    width : 150px;
-    height: 50px;
-  }
-
-  .product{
-      width: 100%;
-      padding-left: 0px;
-  }
-
-  .phone  .fa-phone{
-      margin-left: -50px;
-   
-}
-.time  .fa-clock-o{
-    margin-left: -50px;
- 
-}
-.ship  .fa-truck{
-    margin-left: -50px;
- 
-}
-
-.return  .fa-refresh{
-    margin-left: -30px;
- 
-}
-
- .return .infor{
-    position: relative;
-    left: 30px;
- }
-
- .footer-info{
-
-    height: 320px;
-      margin-top: 30px;
-      
-  }
-
-  @media (min-width: 900px){
-    .header .row .col-12 .text-phone {
-        
-        flex-direction: row;
-      
-      }
-      .header .row  .col-12  .text-hours{
-        flex-direction: row;
-      
-      }
-    
-
-  }
-  
-      
- }

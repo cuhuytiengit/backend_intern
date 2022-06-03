@@ -13,11 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="banner  container-fluid">
    
                         <div class="row">
-                                <div class="col-12 col-md-8">
-                                        <div class = 'banner-header1'>
-                                                <div class="img-banner-1">
-                                                       <!-- <img src="<?php echo base_url();?>img/img/img_header/pic1_layco_1.jpg" > -->
-                                                </div>
+                                <div class=" banner-header-v1  col-sm-12  col-md-8 col-lg-8">
+                                        <div class = 'banner-header1 '>
                                                 <div class = 'text-banner'>
                                                         <span class = 'text-grass'> Grass & </span><br/>
                                                         <span class = 'text-grass1'> Grass Seeds</span>
@@ -28,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         </div>
                                 </div>
 
-                                <div class="col-12 col-md-4">
+                                <div class="banner-header-v2  col-sm-12  col-md-4  col-lg-4">
 
                                         <div class = 'banner-header2'>
                                         <div class = 'text-banner2'>
@@ -60,29 +57,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="container-1">
                         <div class="row">
-                                <div class="col-12 col-md-3">
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                                         <div class = 'filter1'>
-                                                <div class = 'filter-img1'>
+                                        <img src="<?php echo base_url();?>img/img/img_header/da_and_rau.jpg" width ='100%'>
+                                        <div class = 'filter-img1'>
                                                 <div class = 'text-filter'>   NEW FOR 2017</div> 
                                         </div>
                                 </div>
                         </div>
-                                <div class="col-12 col-md-3">
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                                         <div class = 'filter2'>
+                                        <img src="<?php echo base_url();?>img/img/img_header/rau_qua_n.jpg" width ='100%'>
                                                 <div class = 'filter-img1'>
                                                         <div class = 'text-filter'>        VEGETABLES  </div> 
                                                 </div>
                                         </div>
                                 </div>
-                        <div class="col-12 col-md-3">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                                 <div class = 'filter3'>
+                                <img src="<?php echo base_url();?>img/img/img_header/rauxanh.jpg" width ='100%'>
                                         <div class = 'filter-img1'>
                                                 <div class = 'text-filter'> HERBS </div> 
                                         </div>
                                 </div>
                         </div>
-                        <div class="col-12 col-md-3">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                                 <div class = 'filter4'>
+                                <img src="<?php echo base_url();?>img/img/img_header/Hoahong.jpg" width ='100%'>
                                         <div class = 'filter-img1'>
                                                 <div class = 'text-filter'> FLOWERS </div> 
                                         </div>
@@ -102,12 +103,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 ?>
 </div>
-<div class="container">
+<div class="container-lg">
+        <div class="view-product">
         <div class="text-product">PRODUCTS  </div>
         <div class="product-menu">
         <div class="product-top">
         <?php while($row = $result->fetch_assoc()) { ?>
-                <div class="product-1 col-12 col-md-3">
+                <div class="product-1 col-12  col-sm-12 col-md-3 col-lg-3">
                         <div class="top-product">
                                 <div class="top-img">
                                 <img src="<?php echo  $row['img_product']; ?>">
@@ -128,11 +130,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         ?>
         </div>
+        </div>
+
+     
 </div>
 
 <div class="banner-sub">
         <div class="row">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
     <div class = 'banner-sub1'>
                                 <span class ='text-save'>Save</span><br/>
                                 <span class ='text-sales-20'>20%</span><br/>
@@ -142,7 +147,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
     </div>
         </div>
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
       
     <div class = 'banner-sub2'>
                                 <span class = 'text-on-new'>THE BEST HEIRLOOM & GOURMET</span><br/>
@@ -158,34 +163,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        
 <div class="banner-logo1">  
 <div class="row">
-    <div class="col-12 col-md-2">
+    <div class="col-12 col-sm-12 col-md-2 col-lg-2">
      
     <div class = 'logo-thuonghieu1'>
                                 <img src="<?php echo base_url();?>img/img/img_brand/agriframes-logo-list.png" >
                         </div>
 
     </div>
-    <div class="col-12 col-md-2">
+    <div class="col-12 col-sm-12 col-md-2 col-lg-2">
          <div class = 'logo-thuonghieu2'>
                                 <img src="<?php echo base_url();?>img/img/img_brand/logo-juliana.png" >
                         </div>
     </div>
-    <div class="col-12 col-md-2">
+    <div class="col-12 col-sm-12 col-md-2 col-lg-2">
     <div class = 'logo-thuonghieu3'>
                                 <img src="<?php echo base_url();?>img/img/img_brand/logo-blooms.png" >
                         </div>
     </div>
-    <div class="col-12 col-md-2">
+    <div class="col-12 col-sm-12 col-md-2 col-lg-2">
     <div class = 'logo-thuonghieu4'>
                                 <img src="<?php echo base_url();?>img/img/img_brand/eden_logo.png">
                         </div>
     </div>
-    <div class="col-12 col-md-2">
+    <div class="col-12 col-sm-12 col-md-2 col-lg-2">
     <div class = 'logo-thuonghieu5'>
                                 <img src="<?php echo base_url();?>img/img/img_brand/halls_logo.png">
                         </div>
     </div>
-    <div class="col-12 col-md-2">
+    <div class="col-12 col-sm-12 col-md-2 col-lg-2">
     <div class = 'logo-thuonghieu6'>
                                 <img src="<?php echo base_url();?>img/img/img_brand/alko-logo.png" >
                         </div>
@@ -196,7 +201,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="infor-activity-1">
 <div class="row">
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3">
      
     <div class = 'phone'>
                                 <div class = 'icon'>
@@ -213,7 +218,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
 
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3">
     
     <div class = 'time'>
                         <div class = 'icon'>
@@ -233,7 +238,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
 
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3">
       
     <div class = 'ship'>
                         <div class = 'icon'>
@@ -248,7 +253,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
 
     </div>
-    <div class="col-12 col-md-3">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3">
 
     <div class = 'return'>
                                 <div class = 'icon'>
@@ -265,6 +270,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </div>
 </div>
+        </div>
+        </div>
+
                 
     <?php include 'footer.php';?>
 

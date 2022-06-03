@@ -12,11 +12,6 @@
   font-size: 14px;
   font-style:normal;
   font-family: 'PT Sans Narrow', sans-serif;
-  justify-content: center;
-  padding-left: 12%;
-  padding-right: 12%;
-
-
 }
 .header-black .text-phone {
   margin-top: 10px;
@@ -75,8 +70,7 @@
 
 
 .header-logo-1 .row {
-  position: relative;
-  top: 20px;
+  padding-top: 20px;
 }
 .header-logo-1 .input-search input{
  margin-left: 20%;
@@ -105,7 +99,7 @@
   text-decoration: none;
   color: #6aaf07;
   font-family: 'Sarina', cursive;
-  font-size: 43px;
+  font-size: 30px;
 
   color: #6aaf07;
 
@@ -298,6 +292,7 @@
 
 .containers{
     min-height: auto ;
+    padding-left: 10px;
 }
 .container-1{
   position: relative;
@@ -310,23 +305,14 @@
     position: relative;
     bottom: 50px;
 }
-.banner .row{
-   height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: center;
 
-
-
-}
-.banner .row .col-md-8{
+.banner .banner-header1{
+  width: 100%;
+  height: 100%;
   background-image: url(../img/img/img_header/pic1_layco_1.jpg);
   background-size: 100% 120%;
 }
 
-.banner-header1  .img-banner-1{
-  position: absolute;
-}
 
   .banner-header1 .text-banner{
     text-align: center;
@@ -343,10 +329,10 @@
 
   }
   .banner-header1 .button-hover-box-shadownn{
-    width : 220px;
+    width : 170px;
     height: 50px;
-    margin-left: 45%;
-    margin-right: 45%;
+    margin-left: 40% ;
+
     padding-top: 28px;
     
     border-radius: 5px;
@@ -433,10 +419,10 @@
 
    .banner-header2 .button-hover-box-shadownn{
   
-    width : 220px;
+    width : 170px;
     height: 50px;
     padding-top : 25px;
-    margin-left:29%;
+    margin-left: 32%;
     border-radius: 5px;
   
      text-align : center;
@@ -470,15 +456,12 @@
     height: 100px;
   }
 
-.row .filter1{
-    width: calc(100%);
-    height: 250px;
-    background-image:url('../img/img/img_header/da_and_rau.jpg');
+ .filter1{
+    width: 100%;
     position: relative;
+    
     top: 20px;
-    background-size : calc(100%) calc(100%);
   }
-
 
 
   .filter-img1{
@@ -515,39 +498,25 @@
 
 
   }
- .row .filter2{
-  width: calc(100%);
-  height: 250px;
-    background-image:url('../img/img/img_header/rau_qua_.jpg');
-    position: relative;
-    background-size : calc(100%) calc(100%);
+.filter2{
+  width: 100%;
 
-    top: 20px;
-    justify-content: center;
-  
-  
-  }
-  
- .row .filter3{
-  width: calc(100%);
-  height: 250px;
-    background-image:url('../img/img/img_header/rauxanh.jpg');
     position: relative;
-    background-size : calc(100%) calc(100%);
-
 
     top: 20px;
   
   
   }
-.row  .filter4{
+  
+  .filter3{
+  width: calc(100%);
+    position: relative;
+    top: 20px;
+  }
+
+ .filter4{
     width: 100%;
-    height: 250px;
-    background-image:url('../img/img/img_header/Hoahong.jpg');
     position: relative;
-    background-size : calc(100%) calc(100%);
-
-
           top: 20px;
           
   
@@ -558,8 +527,7 @@
 
 .product{
     height: auto;
-    padding-left: 12%;
-    padding-right: 12%;
+
     padding-top: 100px;
 
 
@@ -597,9 +565,8 @@
 }
 
 .top-product{
-    width: 90%;
     height: auto;
-    background-color: aliceblue;
+    background-color: rgba(211, 213, 214, 0.66);
     overflow: hidden;
 }
 .top-product .top-img{
@@ -614,6 +581,7 @@
     transform: scale(1);
     transition: 0.3s ease-in-out;
     overflow: hidden;
+    width:100%;
 
 }
 .top-product .top-img  :hover{
@@ -634,7 +602,7 @@
     font-weight: 400;
 }
 .bottom-product .button-add-to-cart button{
-     width:120px;
+     width:150px;
      height: 50px;
      border-radius: 5px;
      font-size: 18px;
@@ -670,12 +638,13 @@
 
 .banner-sub .row .banner-sub1{
   width: 100%;
-  height: 350px;
+  height: 400px;
+
   background-image: url('../img/img/img_banner/banner-1.jpg');
   float: left;
-  background-size: 100% 350px;
+  background-size: 100% 50%;
   text-align: center;
-  padding-left: calc(20%);
+  padding-left: calc(40%);
   padding-top: 30px;
   color: #fff;
   line-height: 80px;
@@ -716,12 +685,10 @@
 
 
 .banner-sub .banner-sub2{
-
-
-  width:100%;
-  height: 350px;
+  width: 100%;
+  height: 400px; 
   background-image: url('../img/img/img_banner/banner-2.jpg');
-  background-size: calc(100%) calc(100%);
+  background-size: 100% 100%;
   text-align: center;
   color: #fff;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -729,7 +696,6 @@
   font-size: 35px;
   line-height: 40px;
   padding-top: 100px;
-  float: left;
   
 
 }
@@ -766,10 +732,10 @@
 
 
 }
-.banner-logo1 .row  .logo-thuonghieu1{
+.banner-logo1  .logo-thuonghieu1{
     height: 200px;
   }
-  .banner-logo1 .row  .logo-thuonghieu1 img{
+  .banner-logo1   .logo-thuonghieu1 img{
     width: 70%;
     height: 30px;
     margin-top: calc(50px);
@@ -783,6 +749,7 @@
   height: 200px;
   
   }
+
 .banner-logo1 .row  .logo-thuonghieu2 img{
     width: 70%;
     height: 30px;
