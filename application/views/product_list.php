@@ -1,6 +1,6 @@
 <div class="choose-product-1">
     <div class="row">
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-sm-12  col-md-4 col-lg-4">
     
             <div class="text-show">Show</div>
             <div class="choose-number-show">
@@ -10,7 +10,7 @@
             </div>
     </div>
 
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
 
     <div class="text-sort">Sort by</div>
                             <div class="choose-sort-style">
@@ -20,7 +20,7 @@
 
     </div>
     
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
     <div class="choose-page">
                             <?php  
                                      $servername = "localhost";
@@ -43,11 +43,11 @@
 
 
 
- <div class="list-product-page">
+ <div class="list-product-page container-lg">
          <div class="product-list-sale-page-1">
     <div class="product-list-top" >
         <?php  foreach((array)$resultData as $user) { ?>
-            <div class="product1 "  > 
+            <div class="product1  col-12 col-sm-12 col-md-4 col-lg-4"  > 
                 <div class="product1-box">
                     <div class="product1-box-top">
                     <img src="<?php echo $user->img_product ?>" width="50%">
@@ -72,7 +72,7 @@
 
 <div class="choose-product-1">
     <div class="row">
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
     
                             <div class="text-show">Show</div>
                             <div class="choose-number-show">
@@ -82,7 +82,7 @@
                             </div>
                         </div>
 
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
 
     <div class="text-sort">Sort by</div>
                             <div class="choose-sort-style">
@@ -91,7 +91,7 @@
                             </div>
 
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
     <div class="choose-page">
                             <?php  
                                      $servername = "localhost";

@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="menu_way_new_for_2017 container-lg">
                                         <ul>
                                                 <li><a href='http://localhost:8080/backend_intern/'>HOME <a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-                                                <li><a href='http://localhost:8080/backend_intern/index.php/home/vegetable'>VEGETABLES</a></li>
+                                                <li><a href='http://localhost:8080/backend_intern/index.php/home/fruits'>FRUITS</a></li>
                                         </ul>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
            
 
             <div class="text-new_for_2017">
-                Vegetables
+                Fruits
             </div>
   <div class="view-categories1 container-lg">
   <div class="row">

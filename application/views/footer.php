@@ -56,11 +56,11 @@
                                 <div class = 'footer1-title'> CATEGORIES</div>
                                 <div class = 'footer2-title'>
                                         <ul>
-                                                <a href ='#'><li>Vegetables </li> </a>      
-                                                <a href ='#'><li>Flowers </li></a>
-                                                <a href ='#'><li>Herbs</li></a>
-                                                <a href ='#'><li>Fruits</li></a>
-                                                <a href ='#'><li>Organics</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/vegetable'><li>Vegetables </li> </a>      
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/flower'><li>Flowers </li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/herbs'><li>Herbs</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/fruits'><li>Fruits</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/organics'><li>Organics</li></a>
                                         </ul>
                                 </div>
                         </div>

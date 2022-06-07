@@ -18,6 +18,18 @@
 
 
 }
+
+.phone a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.phone a:hover{
+  text-decoration: none;
+  color: #6aaf07
+}
+
+
 .header-black .text-phone .phone {
   padding-left: 5px;
   font-weight: 700;
@@ -62,6 +74,15 @@
 
 
 
+}
+
+.menu-filter a{
+  color: #6aaf07;
+  text-decoration: none;
+}
+.menu-filter a:hover{
+  color: #fff;
+  text-decoration: none;
 }
 .header-black .header-logo{
   height: 150px;
@@ -114,7 +135,7 @@
 
 .header-logo-1 .row .input-search input{
   min-height: 45px;
-  min-width: 50%;
+  width: 50%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border: none;
@@ -307,21 +328,34 @@
 }
 
 .banner .banner-header1{
+
+  position: relative;
+
+}
+.banner-header1{
   width: 100%;
   height: 100%;
-  background-image: url(../img/img/img_header/pic1_layco_1.jpg);
-  background-size: 100% 120%;
-}
 
+  background-image: url(../img/img/img_header/pic1_layco_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+ .banner-header1 img{
+   position: absolute;
+ }
 
   .banner-header1 .text-banner{
     text-align: center;
+    padding-top:150px;
 
     font-family: 'Sarina', cursive;
-    font-size: 400%;
-    color: #fff;
-    line-height: 100px;
-    padding-top: 100px;
+    font-size: 50px;
+    color: #f3f3f3;
+    position: relative;
   }
   .banner-header1  .text-grass{
    padding-left: 50px;
@@ -329,6 +363,7 @@
 
   }
   .banner-header1 .button-hover-box-shadownn{
+
     width : 170px;
     height: 50px;
     margin-left: 40% ;
@@ -368,8 +403,7 @@
 
   .banner-header2{
 
-    width: 100%;
-    height: 100%;
+
     background-color:#6aaf07;
 
     text-align: center;
@@ -635,89 +669,105 @@
 
 
 
-
-.banner-sub .row .banner-sub1{
-  width: 100%;
-  height: 400px;
-
-  background-image: url('../img/img/img_banner/banner-1.jpg');
-  float: left;
-  background-size: 100% 50%;
-  text-align: center;
-  padding-left: calc(40%);
-  padding-top: 30px;
-  color: #fff;
-  line-height: 80px;
-
-}
-.banner-sub .row  .banner-sub1 .text-save{
-  font-family: 'Sarina', cursive;
-  font-size: 70px;
+.banner-sub .banner1{
   position: relative;
-  padding-top: 20px;
+  padding-bottom: 30px;
+}
 
+.banner-sub .banner1 .text-save{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  position:absolute;
+  bottom: 150px;
+  font-size: 70px;
+
+  left: 50%;
+  font-family: 'Sarina', cursive;
 
 }
-.banner-sub .row  .banner-sub1 .text-sales-20{
+
+.banner-sub .banner1 .percent{
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 100px;
+  left: 55%;
   font-family: 'Sarina', cursive;
-  font-size: 500%;
-  margin-bottom:calc(20%);
   color: #6aaf07;
 
-
-}
-.span-text-new{
-  line-height: 30px;
-}
-.banner-sub .banner-sub1 .text-on-new{
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-
-}
-.banner-sub .banner-sub1 .text-on-new1{
-  font-family: 'PT Sans Narrow', sans-serif;
-
-  font-size: 20px;
-
-
-}
-
-
-.banner-sub .banner-sub2{
-  width: 100%;
-  height: 400px; 
-  background-image: url('../img/img/img_banner/banner-2.jpg');
-  background-size: 100% 100%;
-  text-align: center;
-  color: #fff;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: bold;
-  font-size: 35px;
-  line-height: 40px;
-  padding-top: 100px;
   
 
 }
 
-.banner-sub .banner-sub2 > .button-hover-box-shadownn{
-  width : 200px;
+.banner-sub .banner1 .text-new2019{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.banner-sub .banner1 .text-new-intro{
+  position: absolute;
+  bottom: 50px;
+  left: 48%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+
+.banner2{
+  position: relative;
+}
+
+.banner2 .text-best{ 
+  position: absolute;
+  bottom: 150px;
+
+  left: 20%;
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.banner2 .text-best2{ 
+  position: absolute;
+  bottom: 100px;
+  left: 18%;
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+
+
+.banner-sub .banner2 .button-hover-box-shadownn{
+  width : 150px;
   height: 50px;
-  padding-top : 5px;
-  margin-top : 20px;
+  padding-top : 15px;
    text-align : center;
    background-color: #6aaf07;
    color: #fff;
    font-size: 25px;
-   position: relative;
-   margin-left: 35%;
+
    border-radius: 5px;
+   font-weight: 600;
    font-family: 'PT Sans Narrow', sans-serif;
    font-size: 15px;
+   position: absolute;
+   bottom: 30px;
+   left: 35%;
+
   
 }
 
-.banner-sub .banner-sub2 .button-hover-box-shadownn:hover{
+.banner-sub .banner2  .button-hover-box-shadownn:hover{
     cursor: pointer;
     background-color: #000000;
 
@@ -1163,9 +1213,9 @@
 }
 .footer .footer1 .footer3-title .fa-youtube-square{
   font-size:15px;
-  position: relative;
-  right:25px;
-  bottom: 10px;
+  position: absolute;
+  right:22px;
+  bottom: 12px;
 }
 
   .footer .footer2{

@@ -5,44 +5,50 @@
     margin: 0;
 }
 
-
-.header .row{
+.header-black{
   
-  height: 42px;
   color: #fff;
   background-color:     #272b2c;
   font-size: 14px;
   font-style:normal;
   font-family: 'PT Sans Narrow', sans-serif;
-  justify-content: center;
-  padding-left: 12%;
-  padding-right: 12%;
-
 }
-.header .row .text-phone {
+
+
+.phone a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .phone a:hover{
+    text-decoration: none;
+    color: #6aaf07
+  }
+  
+.header-black .text-phone {
   margin-top: 10px;
 
 
 }
-.header .row .text-phone .phone {
+.header-black .text-phone .phone {
   padding-left: 5px;
   font-weight: 700;
 }
-.header .row .text-phone .fa-phone {
+.header-black .text-phone .fa-phone {
   color: #6aaf07;
 }
-.header .row .text-time {
+.header-black .text-time {
   margin-top: 10px;
   padding-left: 20%;
 
 }
-.header .row .text-time .fa-clock-o {
+.header-black .text-time .fa-clock-o {
   color: #6aaf07;
 
 }
 
 
-.header .row .text-hours{
+.header-black .text-hours{
   color:white;
   font-family: 'PT Sans Narrow', sans-serif;
 
@@ -50,14 +56,14 @@
 }
 
 
-.header .row  ul {
+.header-black  ul {
    position: relative;
    top:10px;
    float:right;
 
    
 }
-.header .row ul li{
+.header-black ul li{
   float:left;
   margin-left:20px;
   list-style: none;
@@ -69,19 +75,22 @@
 
 
 }
-.header .row .header-logo{
+.menu-filter a{
+    color: #6aaf07;
+    text-decoration: none;
+  }
+  .menu-filter a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+.header-black .header-logo{
   height: 150px;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 
-.header-logo-1 .row {
-  height: 80px;
-}
-
 
 .header-logo-1 .row {
-  position: relative;
-  top: 20px;
+  padding-top: 20px;
 }
 .header-logo-1 .input-search input{
  margin-left: 20%;
@@ -90,10 +99,6 @@
   position: relative;
   left: 50%;
   top:10px;
-}
-.header-logo-1 .row{
-  padding-left: 12%;
-  padding-right: 12%;
 }
 
 
@@ -114,7 +119,7 @@
   text-decoration: none;
   color: #6aaf07;
   font-family: 'Sarina', cursive;
-  font-size: 43px;
+  font-size: 30px;
 
   color: #6aaf07;
 
@@ -129,7 +134,7 @@
 
 .header-logo-1 .row .input-search input{
   min-height: 45px;
-  min-width: 50%;
+  width: 50%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border: none;
@@ -169,10 +174,6 @@
 .header-logo-1 .row   i{
     margin-left: calc(3%);
 
-
-
- 
- 
  }
 
  .header-logo-1 .row   .fa-circle{
@@ -219,7 +220,6 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
 
 .header-menu .row ul {
-  padding-left: 12%;
   margin-top: 30px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 18px;
@@ -238,72 +238,6 @@
 }
 
 
-/*------------------------------------------------CSS MENU SUB---------------------------------------------------------------------------------------------------*/
-
-   .menu-main  a{
-       color: #000000;
-
-       text-decoration: none;
-
-   }
-
-   .menu-main   .menu-sub-1 a{
-    color: #6aaf07;
-
-    text-decoration: none;
-}
-
-
-
-.menumain li:hover>ul{
-    display: block;
-    
-}
-
-.menumain >li :hover>a{
-    color: #000000;
-}
-
-.menumain li .fa-angle-right{
-    margin-left: 40%;
-}
-
- .menu-sub-1 >li :hover>a{
-    color: #000000;
-
-    
-}
-.menu-main ul li :hover >li{
-   display: block;
-
-}
-.menu-main  li ul{
-       width: 14%;
-       height: 25%;
-       z-index: 1;
-       position: absolute;
-       display: none;
-   }
-
-.menu-main >ul li {
-       margin-top: 20px;
-       list-style: none;
-       font-weight: 600;
-       font-size: small;
-       color: #6aaf07;
-}
-
-.menu-main ul li ul li ul{
-    margin-left: 86%;
-    margin-top: -20%;
-
-    list-style: none;
-    width: 100%;
-    height: 55%;
-    background-color: rgb(240, 232, 232);
-    position: absolute;
-
-}
 
 
 
@@ -318,11 +252,15 @@
 .menu_way_new_for_2017{
     width: 100%;
     height:40px;
+
+}
+.menu-sub{
     background-color: #7a7d762c;
+    width: 100%;
+    height:40px;
+    
 }
-.menu_way_new_for_2017 ul{
-    padding: 0 13%;
-}
+
 
 .menu_way_new_for_2017 ul li{
    float: left;
@@ -343,23 +281,28 @@
 
 
  }
- 
+ .menu_way_new_for_2017 ul li a{
+     color: #0e1308;
+     text-decoration: none;
+ }
+
+ .menu_way_new_for_2017 ul li a:hover{
+    color: #6aaf07;
+}
 .text-new_for_2017{
     text-align: center;
-    font-size:calc(225%);
+    font-size:35px;
     font-weight: 600;
     font-family: 'PT Sans Narrow', sans-serif;
-
-    padding-top: 10px;
-
-}
-
-.view-categories1 .row{
-    padding:0 13%;
-
+    padding-top: 30px;
 
 }
 
+
+.view-categories1 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
 .view-categories1 .row ul{
     /* padding:0 13%; */
     padding-left: 25px;
@@ -633,7 +576,7 @@
 
 .text-vegetable ul li{
     padding-top: 10px;
-    font-size: 15;
+    font-size: 15px;
     font-weight: normal;
     font-style: normal;
     margin-left: 10px;
@@ -711,75 +654,34 @@ label{
 
     color: rgba(208, 206, 205, 0.784);
 }
+.button-apply-clear{
+    padding-top: 30px;
+    padding-bottom: 30px;
 
-.button{
-    padding-top: 20px;
-    height: 80px;
 }
-
- .button-apply button{
-    float: left;
-    margin-left: 10px;
-    width:  35%;
+.button-apply-clear button{
     height: 50px;
+    width: 200px;
+
+
     border-radius: 5px;
     background-color: #0e1308;
     color: #fff;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
-
-
-    
 }
-.button-apply button:hover{
+
+
+.button-apply-clear button:hover{
     background-color: red;
 
     
 }
 
-.button-clear button{
-
-    float: left;
-    width: 35%;
-    height: 50px;
-    margin-left: 20px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #0e1308;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 700;
-
-
-
-
-    
-}
-
-.button-clear button:hover{
-    background-color: red;
-
-    
-}
-
-
-.list-product{
-
-    height: auto;
-    width: 100%;
-}
-.choose-product-1 .row {
-    padding: 0;
-}
-.choose-product{
-    padding-top: 3%;
-    display: flex;
-  
-}
 .text-show{
-    width: 25%;
+    width: 50px;
     float: left;
     padding-top: 20px;
-    
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 600;
 
@@ -792,23 +694,18 @@ label{
 
 
 .text-sort{
-    width: 25%;
+    width:50px;
     float: left;
     padding-top: 20px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 600;
-}
-.choose-sort-style{
-    width: 75%;
-    float: left;
-    
 }
 
 
 
 .choose-number-show select{
       height: 90%;
-      width: 180px;
+      width: 120px;
 
      margin-left: 10px;
       background-color: #b9bbb760;
@@ -822,7 +719,7 @@ label{
 
 .choose-sort-style select{
     min-height: 100%;
-    width: 180px;
+    width: 120px;
   margin-left: 10px;
       background-color: #b9bbb760;
       padding: 20px;
@@ -840,11 +737,6 @@ label{
     height: 60px;
     border-radius: 5px;
         background-color: #141413a4;
-
-
-
-    position: relative;
-    left: calc(30%);
      border: none;
 
 }
@@ -865,33 +757,19 @@ label{
 .product-list-sale-page-1{
      height: auto;
      width: 100%;
-     padding-top: 5%;
+     padding-bottom: 30px;
      
 
 
 
 }
-
-
-.product-list-top {
-    width: 100%;
-
-    height: auto;
-    
-
-    
-    
+.product-list-top{
+    padding-bottom: 50px;
 }
 .product-list-top .product1 {
     height: auto;
-    width: 33.33%;
- 
-
-
-
     float: left;
-
-
+    margin-top: 50px;
 
 }
 
@@ -934,7 +812,7 @@ label{
 
 
     min-width: 18%;
-    height: 150px;
+    height: auto;
 
     z-index: 3;
     overflow: hidden;
@@ -958,9 +836,15 @@ label{
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 400;
 }
+
+.fa-shopping-cart{
+
+    margin-right: 5px;
+
+}
 .product-button button{
-    width:50%;
-    height: 50px;
+    width:150px;
+    height:50px;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 400;
@@ -1066,8 +950,7 @@ label{
 }
 
 .footer{
-
-    padding: 0 12%;
+    width: 100%;
   }
   
 .footer .footer1{
@@ -1145,9 +1028,9 @@ label{
 }
 .footer .footer1 .footer3-title .fa-youtube-square{
   font-size:15px;
-  position: relative;
-  right:25px;
-  bottom: 10px;
+  position: absolute;
+  right:22px;
+  bottom: 12px;
 }
 
   .footer .footer2{
@@ -1290,22 +1173,19 @@ label{
 
 
 
-.footer-a-cong-1 .row{
+.footer-a-cong-1{
     min-height:auto;
     border-top: rgb(185, 178, 178) 1px solid;
-
-}
-.footer-a-cong-1 .row {
-    padding: 0 12%;
 
 }
 .info-a-cong{
 
   height:80px;
-
+  
 }
 .logo-nha-tai-tro {
   height:80px;
+
 
 }
 

@@ -13,8 +13,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="banner  container-fluid">
    
                         <div class="row">
-                                <div class=" banner-header-v1  col-sm-12  col-md-8 col-lg-8">
+                                <div class=" col-12 col-sm-12  col-md-8 col-lg-8">
+                                        
                                         <div class = 'banner-header1 '>
+
+                                          
+                        
                                                 <div class = 'text-banner'>
                                                         <span class = 'text-grass'> Grass & </span><br/>
                                                         <span class = 'text-grass1'> Grass Seeds</span>
@@ -22,10 +26,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 <div class = 'button-hover-box-shadownn'  onclick = onCick_but    ton()>
                                                         <a onclick = onCick_button()>SHOP NOW</a>
                                                 </div>
-                                        </div>
+                                             </div>
+                            
                                 </div>
 
-                                <div class="banner-header-v2  col-sm-12  col-md-4  col-lg-4">
+                                <div class="col-12  col-sm-12  col-md-4  col-lg-4">
 
                                         <div class = 'banner-header2'>
                                         <div class = 'text-banner2'>
@@ -135,33 +140,37 @@ defined('BASEPATH') OR exit('No direct script access allowed');
      
 </div>
 
-<div class="banner-sub">
+<div class="banner-sub ">
         <div class="row">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-    <div class = 'banner-sub1'>
-                                <span class ='text-save'>Save</span><br/>
-                                <span class ='text-sales-20'>20%</span><br/>
-                        <div class = 'span-text-new'>
-                                <span class = 'text-on-new'>ON NEW 2019 VARIETIES </span><br/>
-                                <span class = 'text-on-new1'>OUR NEW INTRODUCTIONS ARE HERE!</span><br/>
-                        </div>
-    </div>
+      <div class="banner1">
+                        <img src="<?php echo base_url();?>img/img/img_banner/banner-1.jpg"  width='100%' >
+                        <div class="text-save">Save</div>
+                        <div class="percent">20%</div>
+                        <div class="text-new2019">ON NEW 2019 VARIETIES  OUR </div>
+                         <div class="text-new-intro">     NEW INTRODUCTIONS ARE HERE!</div>  
         </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-      
-    <div class = 'banner-sub2'>
-                                <span class = 'text-on-new'>THE BEST HEIRLOOM & GOURMET</span><br/>
-                                <span class = 'text-on-new1'>VEGETABLE, FLOWER & HERB SEEDS</span><br/>
+
+        </div>
+    <div class=" col-12 col-sm-12 col-md-6 col-lg-6">
+
+          <div class="banner2">
+ 
+                <img src="<?php echo base_url();?>img/img/img_banner/banner-2.jpg" width='100%'  height='100%'>
+                <div class="text-best">THE BEST HEIRLOOM & GOURMET</div>
+                <div class="text-best2">VEGETABLE, FLOWER & HERB SEEDS</div>
+       
+                
                         <div class = 'button-hover-box-shadownn'  onclick = onCick_button()>
                                 <a onclick = onCick_button()>SHOP NOW!</a>
                         </div>
-
-    </div>
+                        </div>
+        </div>
   </div>
 </div>
         </div>
        
-<div class="banner-logo1">  
+<div class="banner-logo1 container-lg">  
 <div class="row">
     <div class="col-12 col-sm-12 col-md-2 col-lg-2">
      
