@@ -16,9 +16,9 @@
                     <div class="menu-filter col-12 col-sm-12  col-md-3  col-lg-3">
                             <ul>
                                     <li class ='active' ><a href ='http://localhost:8080/backend_intern/'>Home</a></li>    
-                                    <li>About</li>
-                                    <li>Contacts</li>
-                                    <li>Blog</li>
+                                    <li><a href ='http://localhost:8080/backend_intern/index.php/home/about_page'>About</a></li>
+                                    <li><a href ='http://localhost:8080/backend_intern/index.php/home/contact'>Contacts</a></li>
+                                    <li><a href ='http://localhost:8080/backend_intern/index.php/home/blog'>Blog</a></li>
                             </ul>
                     </div>
             </div>      

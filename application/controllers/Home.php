@@ -34,6 +34,18 @@ class Home extends CI_Controller {
 
 	}
 
+	
+	public function about_page()
+	{
+		$this->load->view('about_pages');
+
+	}
+        public function contact()
+	{
+		$this->load->view('contact_main');
+
+	}
+
 	public function vegetable()
 	{
 		$this->load->view('vegetable_main');
@@ -60,6 +72,9 @@ class Home extends CI_Controller {
 		$this->load->view('organics_main');
 
 	}
+
+	
+
 
 
 	public function products()
