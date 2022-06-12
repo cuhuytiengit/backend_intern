@@ -16,9 +16,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class=" col-12 col-sm-12  col-md-8 col-lg-8">
                                         
                                         <div class = 'banner-header1 '>
-
-                                          
-                        
                                                 <div class = 'text-banner'>
                                                         <span class = 'text-grass'> Grass & </span><br/>
                                                         <span class = 'text-grass1'> Grass Seeds</span>
@@ -100,10 +97,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         $servername = "localhost";
         $username = "root";
-        $password = "cuhuytien@3003";
+        $password = "";
         $dbname = "backend_intern";
         $conn = mysqli_connect($servername,$username,$password,$dbname);
-        $sql = "SELECT id, name_product, price_product,img_product FROM products LIMIT 0,8";
+        $sql = "SELECT id, name_product, price_product,img_product FROM products where id_category=6";
         $result = $conn->query($sql);
 
 ?>

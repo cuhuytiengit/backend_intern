@@ -209,7 +209,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="col">
     <div class="list-product" id="product-list-sale-page-1">
 
-<?php  include 'products.php'  ?>
+<?php  include 'flowers_products.php'  ?>
 
 </div>
     </div>

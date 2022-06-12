@@ -22,15 +22,19 @@ class Home extends CI_Controller {
 		$this->load->view('about');
 	}
 
-    public function backend()
-	{
-		$this->load->view('backend');
-	}
 
 	public function phpadmin()
 	{
 		$this->load->view('phpadmin');
 		$this->load->helper('url');
+
+	}
+
+	
+	public function backend()
+	{
+		$this->load->view('backend');
+	
 
 	}
 
@@ -87,41 +91,40 @@ class Home extends CI_Controller {
 
 
 
-
      /*Insert*/
-// 	public function savedata()
-// 	{
-// 		/*load registration view form*/
-// 		$this->load->view('insert');
+// public function savedata()
+// {
+// 	/*load registration view form*/
+// 	$this->load->view('form_insert');
 	
-// 		/*Check submit button */
-// 		if($this->input->post('save'))
-// 		{
-// 		    $data['id']=$this->input->post('id');
-// 			$data['name_product']=$this->input->post('name_product');
-// 			$data['price_product']=$this->input->post('price_product');
-// 			$data['img_product']=$this->input->post('img_product');
-// 			$response=$this->Crud_model->saverecords($data);
-// 			if($response==true){
-// 			        echo "Records Saved Successfully";
-// 			}
-// 			else{
-// 					echo "Insert error!";
-// 			}
+// 	/*Check submit button */
+// 	if($this->input->post('save'))
+// 	{
+// 	        $data['id']=$this->input->post('id');
+// 		$data['name_product']=$this->input->post('name_product');
+// 		$data['price_product']=$this->input->post('price_product');
+// 		$data['img_product']=$this->input->post('img_product');
+// 		$data['id_category']=$this->input->post('id_category');
+// 		$response=$this->Crud_model->saverecords($data);
+// 		if($response==true){
+// 		        echo "Records Saved Successfully";
+// 		}
+// 		else{
+// 				echo "Insert error!";
 // 		}
 // 	}
+// }
 
 
 
-// 	public function deletedata(){
-//   $id=$this->input->get('id');
-//   $response=$this->Crud_model->deleterecords($id);
-//   if($response==true){
+// public function deletedata(){
+// $response=$this->Crud_model->deleterecords($id);
+// if($response==true){
 //     echo "Data deleted successfully !";
 // }
-//   else{
-//     echo "Error !";
-//   }
+// else{
+//    echo "Error !";
+//  }
 // }
 	
 

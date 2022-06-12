@@ -790,10 +790,6 @@ label{
 
 }
 .product1-box-top img{
-    margin-left: 25%;
-
-
-
     transform: scale(1);
     transition: 0.3s ease-in-out;
     z-index: 2;

@@ -48,7 +48,7 @@
     $current .= $sql . "\n";
     file_put_contents($file, $current);
 
-    $sql = "SELECT * FROM products  "  .  ((strlen($oderBySql) > 0 ) ? $oderBySql : "")  . " LIMIT " . ($page - 1)*$pageSize . ", " . $pageSize;
+    $sql = "SELECT * FROM products where id_category=1  "  .  ((strlen($oderBySql) > 0 ) ? $oderBySql : "")  . " LIMIT " . ($page - 1)*$pageSize . ", " . $pageSize;
 
     $result = $conn->query($sql);
     $resultData = array();
