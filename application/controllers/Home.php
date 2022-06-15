@@ -88,6 +88,38 @@ class Home extends CI_Controller {
 
 	}
 
+	
+
+	public function  flowers_products()
+	{
+		$this->load->view('flowers_products');
+
+
+	}
+
+	
+	public function  herbs_products()
+	{
+		$this->load->view('herbs_products');
+
+
+	}
+	public function  fruits_products()
+	{
+		$this->load->view('fruits_products');
+
+
+	}
+	public function  organics_products()
+	{
+		$this->load->view('organics_products');
+
+
+	}
+
+
+
+
 
 
 

@@ -37,7 +37,7 @@
         }
     }
     
-    $sql = "SELECT COUNT(*) AS id FROM products " . ((strlen($oderBySql) > 0 ) ? $oderBySql :'' );
+    $sql = "SELECT COUNT(*) AS id FROM products  where id_category=1 " . ((strlen($oderBySql) > 0 ) ? $oderBySql :'' );
     $resultCount = $conn->query($sql);
     $totalUser = mysqli_fetch_assoc($resultCount);
 
