@@ -50,6 +50,44 @@ class Home extends CI_Controller {
 
 	}
 
+	public function customer()
+	{
+		$this->load->view('customer_main');
+
+	}
+	public function privacy()
+	{
+		$this->load->view('privacy_main');
+
+	}
+
+	public function term()
+	{
+		$this->load->view('term_main');
+
+	}
+	public function payment()
+	{
+		$this->load->view('pay_main');
+
+	}
+	public function guarantee()
+	{
+		$this->load->view('guarantee_main');
+
+	}
+	public function shipping()
+	{
+		$this->load->view('shipping_main');
+
+	}
+
+
+
+
+	
+
+
 	public function vegetable()
 	{
 		$this->load->view('vegetable_main');

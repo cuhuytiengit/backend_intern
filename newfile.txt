@@ -3128,3 +3128,6 @@ SELECT COUNT(*) AS id FROM products  where id_category=2 ORDER BY price_product 
 SELECT COUNT(*) AS id FROM products  where id_category=2 ORDER BY price_product ASC
 SELECT COUNT(*) AS id FROM products  where id_category=2 ORDER BY price_product DESC
 SELECT COUNT(*) AS id FROM products  where id_category=2 
+SELECT COUNT(*) AS id FROM products  where id_category=5 
+SELECT COUNT(*) AS id FROM products  where id_category=1 
+SELECT COUNT(*) AS id FROM products where id_category=3 

@@ -33,6 +33,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="input-mind">
                                 <input type="text" placeholder ='What`s on your mind?'>
                             </div>
+                            
+                            <div class="btn_submit">
+                                <button>SUBMIT</button>
+                            </div>
                         </div>
                    </div>
             </div>           

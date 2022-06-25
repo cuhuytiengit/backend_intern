@@ -1,18 +1,55 @@
+
+                       <?php  
+                                     $servername = "localhost";
+                                     $username = "root";
+                                     $password = "";
+                                     $dbname = "backend_intern";
+                                     $conn = mysqli_connect($servername,$username,$password,$dbname);
+                                     ?>
+              
+
 <div class="header-black container-fluid">
     <div class="header  container-lg">
             <div class="row">
                     <div class="col-12 col-sm-12  col-md-4 col-lg-4 ">
                             <div class = 'text-phone'>
                                     <i class = 'fa fa-phone'></i> 
-                                    <span class = 'phone'><a href ='#'>(123) 456-7890</a></span> Round-the-clock free hotline (24/7)
+                                    <span class = 'phone'><a href ='#'><?php 
+                                     $sql = "SELECT * FROM information where id_infor='i01'";
+                                     $result = mysqli_query($conn,$sql);
+                                     while($row = mysqli_fetch_array($result) ){     
+                                         echo  $row['tiltle'] ?></a>
+                                                      <?php
+
+}
+?></span> <?php 
+$sql = "SELECT * FROM information where id_infor='i02'";
+$result = mysqli_query($conn,$sql);
+while($row = mysqli_fetch_array($result) ){     
+    echo  $row['tiltle'] ?></a>
+                 <?php
+
+}
+?>
                             </div>
                     </div>
                             <div class="col-12 col-sm-12  col-md-5 col-lg-5">
                             <div class = 'text-time'>
                                     <i class="fa fa-clock-o" aria-hidden="true"></i>
-                                    <span class = 'text-hours'>Hours: 7 days a week from 9:00 am to 7:00 pm</span>
+                                    <span class = 'text-hours'>
+                                    <?php 
+                                     $sql = "SELECT * FROM information where id_infor='i03'";
+                                     $result = mysqli_query($conn,$sql);
+                                     while($row = mysqli_fetch_array($result) ){     
+                                         echo  $row['tiltle'] ?></a>
+                                                      <?php
+
+}
+?>
+                                    </span>
                             </div>
                     </div>
+
                     <div class="menu-filter col-12 col-sm-12  col-md-3  col-lg-3">
                             <ul>
                                     <li class ='active' ><a href ='http://localhost:8080/backend_intern/'>Home</a></li>    

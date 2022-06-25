@@ -241,9 +241,8 @@
 
 
 
-   /*--------------------------------------------CONTAINER-----------------------------------------------------------------------*/
-
-.text-contact{
+/*--------------------------------------------CONTAINER-----------------------------------------------------------------------*/
+.text-term{
   font-weight: 700;
   font-style: normal;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -251,23 +250,12 @@
   font-size: 40px;
   line-height: 1;
   letter-spacing: 0px;
+  text-transform: uppercase;
   text-align: center;
   padding-top: 50px;
 }
-
-.text-writewrite-us{
-  font-weight: 700;
-  font-style: normal;
-  font-family: 'PT Sans Narrow', sans-serif;
-  color: #6aaf07;
-  font-size: 18px;
-  line-height: 1.3;
-  letter-spacing: 0px;
-  padding-top: 50px;
-}
-
-.text-info-write-us{
-  
+.text-content-term{
+  padding-top:50px;
   font-weight: 400;
   font-style: normal;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -275,76 +263,45 @@
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: 0px;
-
 }
-
-.input-name{
+.play-rule{
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0px;
+  color: #6aaf07;
+  text-transform: uppercase;
   padding-top: 30px;
 }
 
-.input-name input {
-  width: 100%;
-  height: 50px;
-  padding-left: 20px;
-  border: #fff;
-  font-family: inherit;
+.content-play-rule{
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #aaaaaa;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0px;
+  padding-top: 20px;
+
 }
 
-/* .input-email{
-  padding-top: 30px;
-} */
-.input-phone-number{
-  padding-top: 30px;
-}
-
-.input-phone-number input {
-  width: 100%;
-  height: 50px;
-  padding-left: 20px;
-  border: #fff;
-  font-family: inherit;
-}
-
-.input-mind{
-  padding-top: 30px;
-}
-
-.input-mind input {
-  width: 100%;
-  font-family: inherit;
-  height: 50px;
-  padding-left: 20px;
-  border: #fff;
-}
-
-.btn_submit {
-  padding-top: 50px;
+.content-play-rule2{
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #aaaaaa;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0px;
+  padding-top: 20px;
   padding-bottom: 50px;
-}
-.btn_submit button{
-  width:100px;
-  height: 40px;
-  position: relative;
-    text-align: center;
-    z-index: 1;
-    line-height: 18px;
-    border-width: 2px;
-    border-style: solid;
-    transition: .3s;
-    letter-spacing: .56px;
-    border-radius: 4px;
-    background-color: #6aaf07;
-    border: none;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #ffffff;
-}
-
-.btn_submit button:hover{
-  background-color: #272b2c;
 
 }
+
 
 
 

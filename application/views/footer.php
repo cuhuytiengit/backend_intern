@@ -72,10 +72,10 @@
                                 <div class = 'footer1-title'>INFORMATION</div>
                                 <div class = 'footer2-title'>
                                         <ul>
-                                                <a href ='#'> <li>About Us</li></a>
-                                                <a href ='#'><li>Customer Service</li></a>
-                                                <a href ='#'><li>Privacy Policy</li></a>
-                                                <a href ='#'><li>Contact Us</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/about_page'> <li>About Us</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/customer'><li>Customer Service</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/privacy'><li>Privacy Policy</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/contact'><li>Contact Us</li></a>
                                                 <a href ='#'><li>Blog</li></a>
                                         </ul>
                                 </div>
@@ -88,10 +88,10 @@
                                 <div class = 'footer1-title'> WHY BUY FROM US</div>
                                 <div class = 'footer2-title'>
                                         <ul>
-                                                <a href ='#'><li>Shipping & Delivery</li></a>    
-                                                <a href ='#'><li>Secure payment</li></a>
-                                                <a href ='#'><li>Guarantee</li></a>
-                                                <a href ='#'><li>Terms & Conditions</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/shipping'><li>Shipping & Delivery</li></a>    
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/payment'><li>Secure payment</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/guarantee'><li>Guarantee</li></a>
+                                                <a href ='http://localhost:8080/backend_intern/index.php/home/term'><li>Terms & Conditions</li></a>
                                                 <a href ='#'> <li>FAQ</li></a>
                                         </ul>
                                 </div>
